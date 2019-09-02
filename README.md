@@ -22,8 +22,8 @@
 - Junit
 - Maven
 
- - Making use Spring & Springboot Frame work with Java 8 to develop the project and Added unit test cases using Junit & restTemplate FrameWork
- - Using h2 database to store the ToDoItem values -- we can extend it by adding any database support via hiberate framework
+ - Making use of Spring MVC & Spring boot Frame work with Java 8 to develop the project and added unit test cases using Junit & restTemplate FrameWork
+ - Using h2 database to store the ToDoItem values -- we can extend it by adding any database support via hibernate framework
  - Maven build tool
 
 
@@ -52,7 +52,7 @@ http://localhost:8081
 Code configured Amazon AWS instance and access it via the following URL
 
 
-# Acess the Swagger URL from the below link to get know more about it and test via Swaager
+# Acess the Swagger URL from the below link to get know more about it and test via Swagger
 
 http://localhost:8081/swagger-ui.html
 
@@ -97,11 +97,13 @@ http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/v2/api-docs
 	 
 	   GET http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/test/1.0/todo{id}
 	   
-	   POST http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/test/1.0/todo        body:  { "name": "string"  }  //toDoItemAddRequest 
+	   POST http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/test/1.0/todo        
+		body:  { "name": "string"  }  //toDoItemAddRequest 
 	   
-	   PATCH http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/test/1.0/todo{id}   body: { "isCompleted": true,
-                                                                                                          "text": "string"
-                                                                                                        }     //toDoItemUpdateRequest 
+	   PATCH http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/test/1.0/todo{id}   
+		body: { "isCompleted": true,
+                         "text": "string"
+                      }     //toDoItemUpdateRequest 
      
 
 
