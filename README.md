@@ -17,7 +17,8 @@
 
 #Technologies
 - Java
-- Spring MVC,Boot
+- Spring MVC
+- Spring Boot
 - Junit
 - Maven
 
