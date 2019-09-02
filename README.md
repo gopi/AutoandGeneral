@@ -1,10 +1,10 @@
 
-# Auto General Assignment  - 02 SEP 2019
+# Auto and General Assignment  - 02 SEP 2019
 
 #Name - Gopi Sundar Raj
  
 
-#Implemented the followign API's as per assignment requirement
+#Implemented the following API's as per assignment requirement
 
 # Tasks: 
 #     GET validateBrackets
