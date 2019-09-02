@@ -55,7 +55,11 @@ Code configured Amazon AWS instance and access it via the following URL
 
 http://localhost:8081/swagger-ui.html
 
+http://localhost:8081/v2/api-docs
+
 or
+
+http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/swagger-ui.html
 
 http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/v2/api-docs
 
