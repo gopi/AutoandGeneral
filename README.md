@@ -102,9 +102,9 @@ http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/v2/api-docs
 	   
 	   PATCH http://ec2-13-236-68-89.ap-southeast-2.compute.amazonaws.com:8081/test/1.0/todo{id}   
 		body: { "isCompleted": true,
-                         "text": "string"
-                      }     //toDoItemUpdateRequest 
-     
+		        "text": "string"
+		      }     //toDoItemUpdateRequest 
+
 
 
 
